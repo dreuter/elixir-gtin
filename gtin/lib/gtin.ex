@@ -1,0 +1,2 @@
+defmodule Gtin do
+end
