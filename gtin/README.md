@@ -1,10 +1,10 @@
-# Gtin
+# GTIN
 
-**TODO: Add description**
+Elixir datatype and common functions for Global Trade Item Numbers (GTIN).
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+The package can be installed as:
 
   1. Add `gtin` to your list of dependencies in `mix.exs`:
 
@@ -21,4 +21,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:gtin]]
     end
     ```
-

@@ -1,8 +1,4 @@
-defmodule GtinTestdbTest do
+defmodule GTINTestDBTest do
   use ExUnit.Case
-  doctest GtinTestdb
-
-  test "the truth" do
-    assert 1 + 1 == 2
-  end
+  doctest GTIN.TestDB
 end

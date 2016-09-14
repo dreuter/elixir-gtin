@@ -1,24 +1,15 @@
 # GtinTestdb
 
-**TODO: Add description**
+A small database of GTIN (EAN-13, EAN-8, ISBN) samples.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `gtin_testdb` to your list of dependencies in `mix.exs`:
+Add `gtin_testdb` to your list of dependencies in `mix.exs`:
 
     ```elixir
     def deps do
-      [{:gtin_testdb, "~> 0.1.0"}]
+      [
+        {:gtin_testdb, "~> 0.1.0", only: :test},
+      ]
     end
     ```
-
-  2. Ensure `gtin_testdb` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:gtin_testdb]]
-    end
-    ```
-
